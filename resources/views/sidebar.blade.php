@@ -37,8 +37,8 @@
             <li class="treeview">
                 <a href="#"><i class="fa fa-link"></i> <span>Reports</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="#">Report 1</a></li>
-                    <li><a href="#">Report 2</a></li>
+                    <li><a href="#">Report A</a></li>
+                    <li><a href="#">Report B</a></li>
                 </ul>
             </li>
         </ul><!-- /.sidebar-menu -->
