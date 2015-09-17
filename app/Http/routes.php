@@ -18,3 +18,12 @@ Route::get('/', function () {
 Route::get('admin', function () {
     return view('main_template');
 });
+
+Route::get('dashboard', function () {
+    return view('dashboard', [
+        'pageTitle' => 'Dashboard',
+        'userName' => 'Nidhish',
+        'companyName' => 'FTS',
+        'companyLocation' => 'Ahmedabad'
+    ]);
+});

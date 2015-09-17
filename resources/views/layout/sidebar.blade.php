@@ -32,10 +32,10 @@
         <ul class="sidebar-menu">
             <li class="header">Main Menu</li>
             <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
-            <li><a href="#"><i class="fa fa-link"></i> <span>Live</span></a></li>
+            <li class="active"><a href="#"><i class="fa fa-tachometer"></i> <span>Dashboard</span></a></li>
+            <li><a href="#"><i class="fa fa-map-marker"></i> <span>Live</span></a></li>
             <li class="treeview">
-                <a href="#"><i class="fa fa-link"></i> <span>Reports</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <a href="#"><i class="fa fa-calendar"></i> <span>Reports</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
                     <li><a href="#">Report A</a></li>
                     <li><a href="#">Report B</a></li>
