@@ -35,10 +35,20 @@
             <li class="active"><a href="#"><i class="fa fa-tachometer"></i> <span>Dashboard</span></a></li>
             <li><a href="#"><i class="fa fa-map-marker"></i> <span>Live</span></a></li>
             <li class="treeview">
-                <a href="#"><i class="fa fa-calendar"></i> <span>Reports</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <a href="#"><i class="fa fa-newspaper-o"></i> <span>Reports</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
                     <li><a href="#">Report A</a></li>
                     <li><a href="#">Report B</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-calendar"></i> <span>Events</span></a></li>
+            <li class="treeview">
+                <a href="#"><i class="fa fa-gear"></i> <span>Configure</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <ul class="treeview-menu">
+                    <li><a href="#">Geofences</a></li>
+                    <li><a href="#">Landmarks</a></li>
+                    <li><a href="#">Routes</a></li>
+                    <li><a href="#">Configure Events</a></li>
                 </ul>
             </li>
         </ul><!-- /.sidebar-menu -->

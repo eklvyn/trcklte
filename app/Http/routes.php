@@ -27,3 +27,7 @@ Route::get('dashboard', function () {
         'companyLocation' => 'Ahmedabad'
     ]);
 });
+
+Route::get('live', function () {
+    return view('live');
+});

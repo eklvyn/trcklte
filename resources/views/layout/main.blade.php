@@ -33,6 +33,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="{{ asset("https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js") }}"></script>
     <script src="{{ asset("https://oss.maxcdn.com/respond/1.4.2/respond.min.js") }}"></script>
     <![endif]-->
+    <link rel="stylesheet" href="{{ asset("/leaflet/leaflet.css") }}">
+    <script src="{{ asset("/leaflet/leaflet.js") }}"></script>
+
+    @yield('mapHeader')
 </head>
 <!--
 BODY TAG OPTIONS:
@@ -55,6 +59,7 @@ desired effect
 |---------------------------------------------------------|
 -->
 <body class="hold-transition skin-purple sidebar-mini">
+
 <div class="wrapper">
 
     <!-- Main Header -->
